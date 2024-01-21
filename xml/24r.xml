@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/Frankenstein_text.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Frankenstein</title>
+            <author corresp="#MWS">Mary Wollstonecraft Shelley</author>
+            <editor corresp="#PBS">Percy Bysshe Shelley</editor>
+            <principal corresp="#TB">Tereza Blahová</principal>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp</publisher>
+            <date>8 December 2023</date>
+            <availability>
+               <licence target="https://iiif.bodleian.ox.ac.uk/iiif/mirador/53fd0f29-d482-46e1-aa9d-37829b49987d">
+                  <p>Original text by Mary Shelley (1816). Public domain, under a CC-BY-NC 4.0 licence.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Draft of Frankenstein, [August or September] – [?December] 1816. | Bodleian MS. 
+               Abinger c.56 (formerly designated Dep. 477/1) consists of 62 leaves originally 
+               bound in Notebook A, one of two now disbound notebooks in which Mary W. Shelley 
+               (MWS) drafted the two-volume version of Frankenstein. The draft in c.56 runs 
+               from the beginning to the end of Volume I, concluding just as the Creature is 
+               about to begin his tale to Victor.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <div type="page" n="24r" rend="recto">
+            <pb facs="#p24r"/>
+               <metamark function="pagenumber"><num><hi rend="circled">81</hi></num></metamark>
+            <p class="no-indent">
+               &quot;and indeed I believe I left him<lb/>
+               &quot;incredulous to the last for his con<lb/>
+               &quot;stant answer to my applications<lb/>
+               &quot;was the same as 
+               <metamark>&#8248;</metamark><note resp="#TB">Caret under the space between words marks where the added text belongs.</note> 
+               <add place="supralinear" hand="#PBS" rend="black ink" resp="#TB">that of</add>the dutch school<lb/>
+               &quot;master in the Vicar of Wakefield-<lb/>
+               <add place="marginleft" hand="#MWS" rend="black ink" resp="#TB">
+                  &quot;
+                  <del type="crossedOut" hand="#MWS" rend="black ink" resp="#TB">
+                  <add place="marginleft" hand="#MWS" rend="black ink" resp="#TB">a year</add>
+                  </del>
+                  <add place="supralinear" hand="#MWS" rend="black ink" resp="#TB"><unclear reason="smudged">y</unclear></add>
+                  with<lb/>
+                  &quot;out greek -I<lb/>
+                  &quot;eat heartily<lb/>
+                  &quot;without greek<lb/>
+                  of-</add>
+               <del type="crossedOut" hand="#MWS" rend="black ink" resp="#TB">"I live very well yet I do not know</del><lb/>
+               <del type="crossedOut" hand="#MWS" rend="black ink" resp="#TB">"Greek</del>" I have ten thousand florins-<lb/>
+               &quot;But his affection for me at<lb/>
+               &quot;length overcame his dislike for<lb/>
+               &quot;learning, and he permitted me<lb/>
+               &quot;to 
+               <metamark>&#8248;</metamark><note resp="#TB">Caret under the space between words marks where the added text belongs.</note>
+               <add place="supralinear" hand="#PBS" rend="black ink" resp="#TB">under</add>
+               take a voyage <add place="supralinear" hand="#PBS" rend="black ink" resp="#TB">of discovery</add> to the land of<lb/>
+               &quot;knowledge."<lb/>
+            </p>
+            <p>
+               &quot;And my father, brothers &amp; Eliza<lb/>
+               beth &quot; said I<lb/>
+            </p>
+            <p>
+               &quot;Very well &amp; very happy &quot; replied<lb/>
+               he  &quot;only a little uneasy that <del type="crossedOut" hand="#MWS" rend="black ink" resp="#TB">yo</del><lb/>
+               &quot;they hear from you so seldom, &amp;<lb/>
+               &quot;by the bye, I mean to lecture you<lb/>
+               &quot;a little upon their account<lb/>
+               &quot;myself- But my dear Frankenstein &quot;<lb/>
+               continued he stopping short &amp; gazing<lb/>
+               &quot;full in my face "I did not before<lb/>
+               &quot;remark how very ill you are. So thin<lb/>
+               &quot;and pale; you appear as if you had<lb/>
+               &quot;been watching for several nights."<lb/>
+             </p>
+             <p>
+                &quot;You have guessed right &quot; I replied<lb/>
+                &quot;I have lately been so engaged in<lb/>
+                &quot;<del type="crossedOut" hand= "#PBS" rend="black ink" resp="#TB">several</del>
+                <add place="supralinear" hand="#PBS" rend="black ink" resp="#TB"><del type="crossedOut" hand="#PBS" rend="black ink" resp="#TB">studious</del> one</add>
+                occupation<del type="crossedOut" hand="#MWS" rend="black ink" resp="#TB">s</del> that I 
+                <del type="crossedOut" hand= "#PBS" rend="black ink" resp="#TB">did</del><lb/>
+                <add place="marginleft" hand="#PBS" rend="black ink" resp="#TB">have</add>
+                &quot;not allow<add place="inline" hand="#PBS" rend="black ink" resp="#TB">ed</add>
+                <metamark>&#8248;</metamark><note resp="#TB">Caret under the text marks where the added text belongs.</note>
+                <add place="supralinear" hand="#MWS" rend="black ink" resp="#TB">myself</add> 
+                sufficient rest as you<lb/>
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>
